@@ -9,11 +9,12 @@ h1{
 }
 
 #main-nav{
+  padding-top: 43px;
 }
 
 
 header{
-overflow: auto;
+overflow: visible;
 height: auto;
 }
 ul
@@ -24,7 +25,6 @@ ul
     padding: 0;
     list-style: none;
     position: relative;
-    padding-top: 17px;
 }
 
 ul li
@@ -63,7 +63,7 @@ li:hover ul
 li:hover li
 {
     float: none;
-    font-size: 25px;
+    font-size: 17px;
 }
 
 li:hover a
