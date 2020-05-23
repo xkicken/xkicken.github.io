@@ -1,13 +1,21 @@
 h1{
-  text-align: center;
+  margin-left: 40%;
   background-color: rgb(255, 255, 255);
-  background-position: center;
+  font-size: 40px
+}
+
+#menu-outer{
+  height: 27px;
+}
+
+#main-nav{
+  margin-left: 40%;
 }
 
 
 ul
 {
-    font-size: 14px;
+    font-size: 25px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -32,7 +40,7 @@ ul li a
     color: rgb(255, 255, 255);
     border-top: 1px solid rgb(255, 255, 255);
     padding: 5px 15px 5px 15px;
-    background: rgb(255, 135, 171);
+    background: rgb(255, 135, 171);z
     margin-left: 1px;
     width: auto;
 }
