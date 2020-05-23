@@ -1,93 +1,64 @@
 h1{
   text-align: center;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
 }
 
 
+ul
+{
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style: none;
 }
 
-.btn-navgroup button {
-  background-color: rgb(255, 166, 193);
-  border: 5px solid rgb(0, 0, 0, );
-  margin: auto;
-  text-align: center;
-  display: inline-block;
+ul li
+{
+    display: block;
+    float: left;
 }
 
-
-
-body {
-  background: rgb(250, 221, 225)
+li ul
+{
+    display: none;
 }
 
-
-
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: white;
-  font-family: Arial;
-
+ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 5px 15px 5px 15px;
+    background: rgb(255, 135, 171);
+    margin-left: 1px;
+    width: auto;
 }
 
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+ul li a:hover
+{
+    background: rgb(255, 166, 193);
+}
+li:hover ul
+{
+    display: block;
+    position: absolute;
 }
 
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
+li:hover li
+{
+    float: none;
+    font-size: 11px;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+li:hover a
+{
+    background: rgb(255, 135, 171);
 }
-
-/* Add a light pink background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(255, 166, 193);
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(255, 196, 214);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+/* dropdown menu hover color */
+li:hover li a:hover
+{
+    background: rgb(255, 196, 214);
 }
