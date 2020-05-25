@@ -2,17 +2,20 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <title> Antony's Anime Review </title>
-
-
-</head>
-<object id="navbar" type="text/html" data="nav.html" ></object>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  </head>
 
   <body>
+    <header id="nav"></header>
     <p>
       this is my content
     </p>
+    <script>
+      $("#nav").load("nav.html");
+    </script>
   </body>
-
 </html>
