@@ -10,3 +10,7 @@ body{
   margin-right: auto;
   overflow: visible;
 }
+
+p{
+  border: 5px rgb(0, 0, 0);
+}
