@@ -1,0 +1,27 @@
+.sidenav{
+  height: auto;
+  width: 100px;
+  position: fixed;
+  overflow-x: hidden;
+  margin-right: auto;
+  align-items: center;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  background-color: rgb(255, 166, 193);
+}
+
+.sidenav a:hover{
+  background-color: rgb(255, 196, 214);
+}
+
+#animelist{
+  width: 100px;
+  margin-left: 15%;
+  margin-right: auto%;
+}
