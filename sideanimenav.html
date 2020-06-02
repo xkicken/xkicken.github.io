@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Anime Side Nav</title>
-    <link rel="stylesheet" href="css/animesidenav.css">
+    <!-- <link rel="stylesheet" href="css/animesidenav.css"> -->
+      <link rel="stylesheet" type="text/css" href="css\style.css" />
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
   </head>
-  <body>
-    <header id="nav"></header>
+<body>
+  <header id="nav"></header>
     <div id="animelist">
       <div class="sidenav">
        <a href="">placeholder</a>
@@ -19,6 +19,12 @@
        <a href="">placeholder</a>
       </div>
     </div>
+  <footer id="footer"></footer>
 
-     <footer id="footer"></footer>
+  <script>
+    $("#nav").load("nav.html");
+    $("#footer").load("footer.html");
+
+  </script>
+</body>
 </html>
