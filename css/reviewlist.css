@@ -1,0 +1,31 @@
+#reviewlist{
+  width: 1100px;
+  height: 5000px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#reviewitem{
+  height: 150px;
+  margin-left: 1%;
+  margin-top: 1%;
+  float: left;
+}
+
+.reviewtext{
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  vertical-align: middle;
+  width: 950px;
+  height: 150px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.reviewimg{
+  height: 100%;
+  float: left;
+}

@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css\style.css" />
-  <link rel="stylesheet" type="text/css" href="css\animereview.css" />
-  <title> Antony's Anime Review </title>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css\style.css" />
+    <link rel="stylesheet" type="text/css" href="css\animereview.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="css/reviewlist.css">
+    <title> Antony's Anime Review </title>
   <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-  </head>
+    </head>
 
   <body>
     <header id="nav"></header>
-    <header id="nav2">
-    </header>
-
-    <div class="contentbox">
-      <div id"animesidenav" class="content"></div>
-      <div id="review" class="content">S
+    <div id="reviewlist">
+      <div id="reviewitem">
+        <a href="" >
+          <img src="images\86468.jpg" class="reviewimg"/>
+        </a>
+        <p class="reviewtext">
+          One year ago, Sagiri Izumi became step-siblings with Masamune Izumi. But the sudden death of their parents tears their new family apart, resulting in Sagiri becoming a shut-in which cut her off from her brother and society.While caring for what's left of his family, Masamune earns a living as a published light novel author with one small problem: he's never actually met his acclaimed illustrator, Eromanga-sensei, infamous for drawing the most lewd erotica. Through an embarrassing chain of events, he learns that his very own little sister was his partner the whole time!As new characters and challenges appear, Masamune and Sagiri must now face the light novel industry together. Eromanga-Sensei follows the development of their relationship and their struggle to become successful; and as Sagiri slowly grows out of her shell, just how long will she be able to hide her true persona from the rest of the world?
+        </p>
       </div>
-      <div id="review" class="content">
-        this is the content box where im going to write my review
-      </div>
-
     </div>
-
     <footer id="footer"></footer>
     <script>
       $("#nav").load("nav.html");
       $("#footer").load("footer.html");
-      $("#animesidenav").load("sideanimenav.html");
-      $("#nav2").load("nav2.html");
+      $("#reviewsidenav").load("sidenav.html");
     </script>
   </body>
-
 </html>
