@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .flex-container{
   display: flex;
   flex-direction: row;
 }
-
+#nav{
+  font-family: 'Roboto', sans-serif;
+}
 
 h1{
   background-color: rgb(250, 221, 225);
