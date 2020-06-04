@@ -74,6 +74,11 @@ li:hover ul
     position: absolute;
 }
 
+li:active ul
+{
+    display: block;
+    position: absolute;
+}
 li:hover li
 {
     float: none;
