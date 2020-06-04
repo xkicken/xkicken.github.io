@@ -1,25 +1,40 @@
-.sidenav{
+#animelist{
   height: auto;
-  width: 125px;
+  width: 300px;
   position: fixed;
   overflow-x: hidden:
 }
+.sidenav{
+  padding-top: 5px;
+}
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+.sidenavitem{
   text-decoration: none;
   font-size: 20px;
-  color: black;
   display: block;
   background-color: rgb(255, 166, 193);
+  height: 100px;
+  position: relative;
 }
 
-.sidenav a:hover{
+.sidenavimg{
+  height: 100px;
+  float: left;
+}
+
+.sidenavtext{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  position:relative;
+  top:50%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  overflow: visible;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.sidenavitem:hover{
   background-color: rgb(255, 196, 214);
-}
-
-#animelist{
-  width: 100px;
-  margin-left: 15%;
-  margin-right: auto%;
 }

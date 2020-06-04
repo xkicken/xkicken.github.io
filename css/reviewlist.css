@@ -8,10 +8,10 @@
   margin-bottom: 100px;
 }
 
-#reviewitem{
-  height: 150px;
-  margin-left: 1%;
-  margin-top: 1%;
+.reviewitem{
+  height: auto;
+  margin-left: 5px;
+  margin-top: 5px;
   float: left;
 }
 
@@ -20,12 +20,33 @@
   float: left;
   padding-left: 10px;
   vertical-align: middle;
-  width: 950px;
+  width: 930px;
   height: 150px;
   margin-top: 0;
   margin-bottom: 0;
 }
 .reviewimg{
-  height: 100%;
+  height: 200px;
   float: left;
+}
+
+.reviewtitle{
+font-size: 20px;
+text-align: center;
+width: 930px;
+background-color: rgb(255, 255, 255);
+margin-top: 0;
+}
+
+.reviewsum{
+
+}
+
+#link{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#rezero{
+  margin-top: 17px;
 }
