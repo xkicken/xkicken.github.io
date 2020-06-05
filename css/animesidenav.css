@@ -1,8 +1,8 @@
 #animelist{
   height: auto;
   width: 300px;
-  position: fixed;
-  overflow-x: hidden:
+  position: static;
+  overflow-x: visible;
 }
 .sidenav{
   padding-top: 5px;
@@ -37,4 +37,11 @@
 
 .sidenavitem:hover{
   background-color: rgb(255, 196, 214);
+}
+
+
+#test{
+  background-color: black;
+  height: 5000px;
+  width: 800px;
 }
