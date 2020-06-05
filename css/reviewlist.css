@@ -47,6 +47,10 @@ margin-top: 0;
   color: rgb(0, 0, 0);
 }
 
+#link h1:hover{
+  font-weight: bold;
+}
+
 #rezero{
   margin-top: 17px;
 }
