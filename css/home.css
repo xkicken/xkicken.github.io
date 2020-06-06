@@ -1,0 +1,65 @@
+.reviewitem{
+  height: auto;
+  margin-left: 5px;
+  margin-top: 5px;
+  float: left;
+}
+
+.reviewtext{
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  vertical-align: middle;
+  width: 200px;
+  height: 150;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: px;
+}
+.reviewimg{
+  height: 100px;
+  float: left;
+}
+
+.reviewtitle{
+font-size: 18px;
+text-align: left;
+width: auto;
+background-color: rgb(255, 255, 255);
+margin-top: 0;
+vertical-align: middle;
+}
+
+#link{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#link h1:hover{
+  font-weight: bold;
+}
+
+#dateadded{
+  margin-left: 80px;
+  font-size: 15px;
+}
+
+#mainpage{
+  width: 1100px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(255, 255, 255);
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#latestreview{
+  float: right;
+  width: 300px;
+  height: 800px;
+  border-left: solid 2px rgb(0, 0, 0);
+}
+
+h3{
+  text-align: center;
+}

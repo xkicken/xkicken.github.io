@@ -23,10 +23,14 @@
 }
 
 .rezzerocharaterimg{
-  width: 300px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
-#review{
+#review p{
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -35,4 +39,12 @@ h2{
   background-color: rgb(255, 255, 255);
   font-size: 30px;
   text-align: center;
+}
+p{
+  text-align: center;
+}
+.reviewimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
