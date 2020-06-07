@@ -18,3 +18,16 @@
   float: left;
   text-align: center;
 }
+
+#contactmeicon{
+  height: 20px;
+}
+
+#contactme{
+  vertical-align: middle;
+}
+
+#contactme p{
+  height: 20px;
+  line-height: 20px;
+}

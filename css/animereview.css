@@ -15,6 +15,10 @@
   margin-top: 4px;
   margin-bottom: 70px;
 }
+#content p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 #sideanimenav{
   float: left;
@@ -27,12 +31,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-}
-
-#review p{
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 h2{
@@ -51,4 +49,8 @@ p{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#bold{
+  font-weight: bold;
 }
