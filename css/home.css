@@ -78,9 +78,10 @@ h3{
 }
 
 #bottom{
-  border-top: solid 1px rgb(0, 0, 0);
   float: left;
   width: 700px;
+  height: 740px;
+  position: relative;
 }
 
 #bottom h5{
@@ -88,6 +89,15 @@ h3{
   font-size: 15px;
   margin-bottom: 0;
   margin-top: 5px;
+}
+
+#currentanime{
+  margin-left: 5px;
+  position: relative;
+  top: 0 ;
+  bottom: 0;
+  width: 600px;
+  height: 210px;
 }
 
 #currentanime img{
