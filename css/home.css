@@ -86,9 +86,9 @@ h3{
 
 #bottom h5{
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 0;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 #currentanime{
@@ -111,5 +111,9 @@ h3{
 #currentanime a p{
   text-align: center;
   padding-left: 10px;
-  padding-top: 30%;
+  height: auto;
+  padding-top: 85px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
